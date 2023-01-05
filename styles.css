@@ -1,0 +1,92 @@
+.container{    
+    flex-direction: column;
+    display: flex;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.nav{
+    width:100%;
+    height: 5em;
+    display: flex;
+    background-color: red;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1%;
+}
+.header{
+    font-size: 4em;
+    font-weight: bolder;
+    color: green;
+}
+.row{
+    flex-direction: row;
+    display: flex;
+    padding-left: 1em;
+    height: auto;
+}
+.date_col{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+span{
+    font-size: 1.7em;
+    color: black;
+    font-weight: bold;
+    font-family: "PT Sans", Calibri, Tahoma, sans-serif;
+   
+}
+.time{
+    font-weight: bold;    
+}
+.status{
+    font-weight: 500;
+    margin-top: 0.5em;
+}
+.divider{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-right: 4%;
+    margin-left: 3%;
+}
+.line{
+    width: 5px;
+    background-color: red;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.bubble{
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    background-color: green;
+}
+.event{
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    height: auto;
+}
+.l1{
+    height: 10em;
+}
+.l2{
+    height: 8.7em;
+}
+.l3{
+    height: 5.2em;
+}
+.l4{
+    height: 11.3em;
+}
+.container .row:hover .bubble{
+    background-color: rgb(93, 231, 29);
+    
+} 
