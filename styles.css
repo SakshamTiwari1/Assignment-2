@@ -24,9 +24,44 @@
     flex-direction: row;
     display: flex;
     padding-left: 1em;
+    height: auto;    
+}
+.row__date_col  {
+    width: 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
     height: auto;
 }
-.date_col{
+.row__time{
+    font-weight: bold;    
+}
+.row__status{
+    font-weight: 500;
+    margin-top: 0.5em;
+}
+.row__divider{
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    margin-right: 4%;
+    margin-left: 3%;
+}
+.row__line{
+    width: 5px;
+    background-color: red;    
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.row__bubble{
+    width: 2em;
+    height: 2em;
+    border-radius: 2em;
+    background-color: green;
+}
+.row__event{
     width: 50%;
     flex-direction: column;
     display: flex;
@@ -40,41 +75,8 @@ span{
     font-family: "PT Sans", Calibri, Tahoma, sans-serif;
    
 }
-.time{
-    font-weight: bold;    
-}
-.status{
-    font-weight: 500;
-    margin-top: 0.5em;
-}
-.divider{
-    align-items: center;
-    flex-direction: column;
-    display: flex;
-    margin-right: 4%;
-    margin-left: 3%;
-}
-.line{
-    width: 5px;
-    background-color: red;    
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    display: flex;
-}
-.bubble{
-    width: 2em;
-    height: 2em;
-    border-radius: 2em;
-    background-color: green;
-}
-.event{
-    width: 50%;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    height: auto;
-}
+
+
 .l1{
     height: 10em;
 }
